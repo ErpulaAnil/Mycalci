@@ -1,46 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Document</title>
-</head>
 <body>
-  <div class="calculator">
-    <div class="input" id="input"></div>
-    <div class="buttons">
-      <div class="operators">
-        <div>+</div>
-        <div>-</div>
-        <div>&times;</div>
-        <div>&divide;</div>
-      </div>
-      <div class="leftPanel">
-        <div class="numbers">
-          <div>7</div>
-          <div>8</div>
-          <div>9</div>
-        </div>
-        <div class="numbers">
-          <div>4</div>
-          <div>5</div>
-          <div>6</div>
-        </div>
-        <div class="numbers">
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-        </div>
-        <div class="numbers">
-          <div>0</div>
-          <div>.</div>
-          <div id="clear">C</div>
-        </div>
-      </div>
-      <div class="equal" id="result">=</div>
-    </div>
-   </div>
+	<h1>Calculator Design Using HTML Layout</h1>
+	<div class="container">
+		<div class="header">Calculator</div>
+		<input type="text" class="result">
+		<div class="first-row">
+			<input type="button" name="" value="Del" class=" red small white-text top-margin">
+			<input type="button" name="" value="Clear" class=" red small white-text ">
+		</div>
+		<div class="second-row">
+			<input type="button" name="" value="7" class="global">
+			<input type="button" name="" value="8" class="global">
+			<input type="button" name="" value="9" class="global">
+			<input type="button" name="" value="/" class="global">
+		</div>
+		<div class="third-row">
+			<input type="button" name="" value="4" class="global">
+			<input type="button" name="" value="5" class="global">
+			<input type="button" name="" value="6" class="global">
+			<input type="button" name="" value="X" class="global">
+		</div>
+		<div class="fourth-row">
+			<input type="button" name="" value="1" class="global">
+			<input type="button" name="" value="2" class="global">
+			<input type="button" name="" value="3" class="global">
+			<input type="button" name="" value="-" class="global">
+		</div>
+		<div class="fourth-row">
+			<input type="button" name="" value="0" class=" global">
+			<input type="button" name="" value="." class=" global">
+			<input type="button" name="" value="%" class="global">
+			<input type="button" name="" value="+" class="global">
+		</div>
+		<div>
+			<div class=""><input type="button" name="" value="=" class="green small"></div>
+		</div>
+		<div class="right">
+		</div>
+	</div>
+	
 </body>
-</html>
